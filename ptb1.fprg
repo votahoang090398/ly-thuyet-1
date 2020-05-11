@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="LOVE"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-03-17 11:28:08 PM"/>
+        <attribute name="created" value="TE9WRTtERVNLVE9QLTlHSUVLOTQ7MjAyMC0wMy0xNzsxMToxNDo1MiBQTTsyNjIw"/>
+        <attribute name="edited" value="TE9WRTtERVNLVE9QLTlHSUVLOTQ7MjAyMC0wMy0xNzsxMToyODowOCBQTTsxOzI3MzQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <input variable="a"/>
+            <declare name="b" type="Integer" array="False" size=""/>
+            <input variable="b"/>
+            <declare name="x" type="Real" array="False" size=""/>
+            <if expression="a=0">
+                <then>
+                    <if expression="b=0">
+                        <then>
+                            <output expression="&quot;vosonghiem&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="vonghiem" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <assign variable="x" expression="-b/a"/>
+                    <output expression="x" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

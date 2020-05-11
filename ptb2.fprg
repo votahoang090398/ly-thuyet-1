@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="LOVE"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-03-18 01:04:14 AM"/>
+        <attribute name="created" value="TE9WRTtERVNLVE9QLTlHSUVLOTQ7MjAyMC0wMy0xNzsxMToyODoxMyBQTTsyNjIy"/>
+        <attribute name="edited" value="TE9WRTtERVNLVE9QLTlHSUVLOTQ7MjAyMC0wMy0xODswMTowNDoxNCBBTTsxOzI3MTA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <declare name="b" type="Integer" array="False" size=""/>
+            <declare name="c" type="Integer" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <input variable="c"/>
+            <declare name="x" type="Real" array="False" size=""/>
+            <declare name="x1" type="Real" array="False" size=""/>
+            <declare name="x2" type="Real" array="False" size=""/>
+            <if expression="a=0">
+                <then>
+                    <output expression="&quot;ptb1&quot;" newline="True"/>
+                </then>
+                <else/>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
